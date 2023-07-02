@@ -9,9 +9,9 @@ public class Task01 {
     public static void main(String[] args) {
         int[] arr = { 0, 1, 2 };
 
-        System.out.println(div(5, 0)); // ArithmeticException
-        System.out.println(parseInt("O")); // NumberFormatException
-        System.out.println(getElement(arr, 5)); // ArrayIndexOutOfBoundsException
+        System.out.println(div(5, 0));              // ArithmeticException
+        System.out.println(parseInt("O"));          // NumberFormatException
+        System.out.println(getElement(arr, 5));   // ArrayIndexOutOfBoundsException
 
     }
 
