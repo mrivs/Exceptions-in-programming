@@ -5,9 +5,9 @@ public class Employee {
     private String name;
     private String secondName;
     private String patronymic;
-    private  int  phoneNumber;
+    private  long  phoneNumber;
 
-    public Employee(String secondName, String name, String patronymic, int phoneNumber) {
+    public Employee(String secondName, String name, String patronymic, long phoneNumber) {
         this.name = name;
         this.secondName = secondName;
         this.patronymic = patronymic;

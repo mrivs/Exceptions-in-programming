@@ -21,7 +21,7 @@ public class Inputer {
                 String surname = userData[0];
                 String firstName = userData[1];
                 String middleName = userData[2];
-                int phoneNumber = Integer.parseInt(userData[3]);
+                long phoneNumber = Long.parseLong(userData[3]);
                 if (userData.length > 4) {
                     throw new DataCountExeption("Неверный формат ввода: введено больше данных");
                 }
